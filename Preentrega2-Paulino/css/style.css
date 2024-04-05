@@ -1,0 +1,49 @@
+main section h1{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    display: flex;
+    
+}
+
+main section p{
+    display: flex;
+    justify-content: center;
+}
+ body{
+    background-color:grey;
+    
+ }
+.container-fluid{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+
+}
+.color-de-fondo-nav{
+    background-color:white;
+
+}
+ 
+a:hover{
+   background-color:gray;
+   border-radius: 3px!important;
+   margin: 3px;
+   
+}
+.nav-link{
+    color: black !important;
+    
+}
+
+main section img{
+    width: 40%;
+    margin-right: 100px;
+    display: flex;
+    position: relative;
+    margin-left: 380px;
+    margin-top: 20px;
+    
+}
