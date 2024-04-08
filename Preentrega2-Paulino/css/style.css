@@ -1,49 +1,21 @@
-main section h1{
-    background-color: black;
-    color: white;
-    justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 4px;
-    display: flex;
-    
-}
-
-main section p{
-    display: flex;
-    justify-content: center;
-}
- body{
-    background-color:grey;
-    
- }
-.container-fluid{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    color: black;
-
-}
-.color-de-fondo-nav{
-    background-color:white;
-
-}
- 
-a:hover{
-   background-color:gray;
-   border-radius: 3px!important;
-   margin: 3px;
+nav{
+    background-color: white;
+    border-bottom: 1px solid black;
    
 }
-.nav-link{
-    color: black !important;
-    
-}
 
-main section img{
-    width: 40%;
-    margin-right: 100px;
-    display: flex;
-    position: relative;
-    margin-left: 380px;
-    margin-top: 20px;
-    
+footer{
+    background-color:whitesmoke;
+    /*border-top: 1px solid black;*/
+    padding: 0%;
+    margin: 0%;
+    .avatargato{
+        width: 3%;
+    }
 }
+.avatargato{
+    width: 7%;
+    padding: 5px;
+    margin-left: 10px;
+}
+ 
