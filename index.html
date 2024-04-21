@@ -10,42 +10,34 @@
 
 <body>
     <header> 
-      <!--Colocar el hover para el nav "importante"-->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <img src="./img/gatito avatar.png" class="avatargato" alt="logo">
-          <a class="navbar-brand" href="index.html">Inicio</a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./html/Razas.html">Razas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./html/Alimentacion.html">Alimentación</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./html/Sobre-nosotros.html" >Sobre Nosotros </a>
-              </li>
-              <li class="nav-item" >   
-                <a class="nav-link" href="./html/acerca-de.html">Acerca De</a></li>
-              
-            </ul>
-          
-            </div>
-          </div>
-        </div>
-      </nav>
+      
+      <img src="img/gatito avatar.png" class="logo" alt="logo">
+
+      <nav>
+        <input class="menu-hamburguesa" type="checkbox" id="menu-hamburguesa"/>
+        <label for="menu-hamburguesa">
+          <img src="img/menu-hamburguesa.png" alt="Menu" class="menu-icono">
+        </label>
+
+          <ul class="menu" id="menu">
+            <li><a class="item" href="index.html">Inicio</a></li>
+            <li><a class="item" href="html/Razas.html">Razas</a></li>
+            <li><a class="item" href="html/Alimentacion.html">Alimentación</a></li>
+            <li><a class="item" href="html/Sobre-nosotros.html">Sobre Nosotros</a></li>
+            <li><a class="item" href="html/acerca-de.html">Acerca De</a></li>
+          </ul>
+        </nav>
+        
     </header>
+
+
 
       <main>
 
         <section class="section01">
-            <h2 class="Titulos">El Mundo de los gatos</h2>
+          <h2 class="Titulos">El Mundo de los gatos</h2>
             <p class="Parrafos" >Este sitio web fue creado para ayudarte a saber todo lo que necesitas sobre tus amigos los gatos, como cuidarlos, alimentarlos. Aprenderas sobres sus razas iniciales y sus subrazas.
-              Obtén toda la información necesario sobre el cuidado de tu gato
+              ¡Obtén toda la información necesaria sobre el cuidado de tu gato, teniendo en cuenta sus cuidados, su diversión y la felicidad de ambos!
             </p>      
             <div>
                 <iframe width="480" height="315" src="https://www.youtube.com/embed/mVR7jz57cjA?si=P2GnqesXJKH_YpnC" title="Consejos para cuidar tu gato en el hogar" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -58,11 +50,15 @@
             <p class="Parrafos">Tu gatito necesita tres cosas de ti: mucha atención, una buena alimentación, y un poco de ayuda para su aseo.
               Debes dejarle comida todo el día en un lugar que sea de fácil acceso para él y donde no haya insectos o roedores. Tiene que disponer de agua fresca y limpia en otro recipiente, aunque a los gatos les encanta beber de corrientes de agua en movimiento, como pequeñas gotas que caen de un grifo mal cerrado.
             </p>
-            <p class="Parrafos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis cumque mollitia architecto. Placeat dolores aliquam fugit accusantium incidunt provident libero saepe eaque nemo? Maxime veniam, ducimus temporibus et sed nam? Vero iusto voluptates repellat sit! Nostrum temporibus, molestias corrupti deleniti autem doloremque magni impedit quaerat debitis velit distinctio tenetur, dignissimos esse consequuntur assumenda officia doloribus repellat reprehenderit libero. Ad, impedit.</p>
+            <p class="Parrafos">Estos pequeños necesitan disponer de tantas cosas como nosotros, son animales inquietos y juguetones. Debemos alejarlos de posibles objetos peligrosos, educar a nuestros niños a respetarlos y cuidarlos, protegerlos de tus otras mascotas, además de proporcionarles 4 zonas: Descanso, juego higiene y comida.</p>
         
-            <!--Cambiar el lorem por texto real-->
+            
           </section>
-          <h3>Estas son las razas más antiguas de gatos</h3>
+          
+         <section class="section04"> <h3 class="Titulos" >Estas son las razas más antiguas de gatos</h3>
+          <p class="Parrafos">El primer ancestro común de los felinos modernos y extintos, es el Proailurus lemanensis, data de hace unos 30 millones de años. Los grandes félidos parece que surguieron hace unos 10 millones de años, mientras que el género Felis (el del gato salvaje doméstico), apareció el último, hace unos 3 millones de años.</p>
+        </section>
+          
           <section class="section03">
             
           <div class="card" style="width: 18rem;">
@@ -71,22 +67,22 @@
               <h5 class="card-title">Gato Montés Africano</h5>
               <p class="card-text">El gato montés africano es una pequeña especie de gato montés de África, Asia occidental y central.
                  Se cree que fue el primer gato domesticado, y que fueron los antiguos egipcios quienes lo domesticaron hace más de 4000 años</p> 
-              <p> Llegan a pesar: 3 a 6,5kg</p> 
-              <p>Esperanza de vida: 12 a 16 años</p>
-               <p>Tamaño: Grande, su cola llega a medir 38cm</p>
+              <p class="card-text" > Llegan a pesar: 3 a 6,5kg</p> 
+              <p class="card-text" >Esperanza de vida: 12 a 16 años</p>
+               <p class="card-text" >Tamaño: Grande, su cola llega a medir 38cm</p>
                
-              <a href="html/Razas.html" class="btn btn-primary">Ir a Razas</a>
+              <a href="html/Razas.html" class="btn btn-primary" class="card-text">Ir a Razas</a>
             </div>
           </div>
           <div class="card" style="width: 18rem;">
-            <img src="img/gato persa.png" class="card-img-top" alt="Gato Persa">
+            <img src="img/gato persa.png" class="card-img-top" style="height: 268px;" alt="Gato Persa">
             <div class="card-body">
               <h5 class="card-title">Gato Persa</h5>
               <p class="card-text">Estos mininos nacieron en la antigua persia, ahora territorio de Irán. Su primer ejemplar fue registrado a principios del año 1600.</p>
-              <p>Llegan a pesar: 4 a 6kg</p>
-              <p>Esperanza de vida: 12 a 15 años</p>
-              <p>Tamaño: Pequeño</p>
-              <a href="html/Razas.html" class="btn btn-primary">Ir a Razas</a>
+              <p class="card-text">Llegan a pesar: 4 a 6kg</p>
+              <p class="card-text">Esperanza de vida: 12 a 15 años</p>
+              <p class="card-text" >Tamaño: Pequeño</p>
+              <a  href="html/Razas.html" class="btn btn-primary" class="card-text">Ir a Razas</a>
             </div>
           </div>
           <div class="card" style="width: 18rem;">
@@ -94,10 +90,10 @@
             <div class="card-body">
               <h5 class="card-title">Bobtail Japonés</h5>
               <p class="card-text">Llama la atención por su cola, muy cortita parecida a la de un conejo. Se estima que sus antepasados existieron durante el siglo V, sin embargo estos mismos felinos fueron introducidos a japón hace 1000 años.</p>
-              <p>Llegan a pesar: 3 a 5kg</p>
-              <p>Esperanza de vida: 9 a 13 años</p>
-              <p>Tamaño: Mediano</p>
-              <a href="html/Razas.html" class="btn btn-primary">Ir a Razas</a>
+              <p class="card-text" >Llegan a pesar: 3 a 5kg</p>
+              <p class="card-text">Esperanza de vida: 9 a 13 años</p>
+              <p class="card-text">Tamaño: Mediano</p>
+              <a href="html/Razas.html" class="btn btn-primary" class="card-text">Ir a Razas</a>
             </div>
           </div>
         </section>
@@ -108,13 +104,9 @@
       </main>
 
       <footer>
-        <!-- Estilizar footer-->
-          <div>
-            <img class="avatargato" src="img/gatito avatar.png" alt="logo">
-          </div>
-        
-    </footer>
-    
+        <div class="div02"><img src="../img/gatito avatar.png" alt="logo"></div>
+       
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>

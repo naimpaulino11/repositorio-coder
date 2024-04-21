@@ -1,0 +1,84 @@
+
+*{
+    list-style-type:none;
+}
+
+body{
+
+        background-color: #112c2c;
+        footer{
+            div{
+                img{
+                    width: 6%;
+                    margin: 5px;
+                }
+            }
+            display: flex;
+            justify-content: space-between;
+
+    
+
+            .div01{
+                margin: 7px;
+                padding: 2px;
+                display: flex;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 10px;
+                 align-items: center;
+                
+        }
+    }
+}
+
+.Titulos{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 7px;
+    background-color: black;
+    border-radius:10px;
+
+     
+}
+
+span{
+    font-weight: bold;
+
+}
+.Parrafos{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px;
+    padding: 7px;
+    
+    
+}
+
+.card{
+    margin:15px;
+    justify-content: center;
+    .card-body{
+
+        .card-text{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-weight: 200;
+
+        }
+    }
+    
+}
+
+ 
+
+    

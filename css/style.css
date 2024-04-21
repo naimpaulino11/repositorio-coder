@@ -1,0 +1,228 @@
+* {
+  list-style-type: none;
+}
+
+body {
+  background-color: #112c2c;
+}
+body footer {
+  display: flex;
+  justify-content: space-between;
+}
+body footer div img {
+  width: 6%;
+  margin: 5px;
+}
+body footer .div01 {
+  margin: 7px;
+  padding: 2px;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  align-items: center;
+}
+
+.Titulos {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 7px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.Parrafos {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 17px;
+  padding: 7px;
+}
+
+.card {
+  margin: 15px;
+  justify-content: center;
+}
+.card .card-body .card-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+header {
+  height: 100px;
+  padding: 0 5%;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+header nav {
+  list-style-type: none;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li a {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin: 0 13px;
+  font-weight: 300;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.item:hover {
+  transition: 1s;
+  color: #ff2258;
+  margin: 15px;
+  padding: 9px;
+}
+
+footer {
+  background-color: whitesmoke;
+  border-top: 1px solid black;
+  padding: 1px;
+  margin: 0%;
+}
+footer div img {
+  width: 4%;
+}
+
+.section04 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+}
+
+.section03 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px;
+  padding: 5px;
+}
+
+.section01 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section02 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+iframe {
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu-hamburguesa {
+  display: none;
+  list-style-type: none;
+}
+
+.menu-icono {
+  width: 30px;
+  height: 35px;
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+  display: none;
+  top: 30px;
+}
+
+* {
+  list-style-type: none;
+}
+
+@media (max-width: 991px) {
+  header {
+    width: 100%;
+  }
+  header .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .menu {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    left: 0;
+    left: 0;
+    background-color: #0d1414;
+    display: none;
+  }
+  .menu {
+    padding: 30px;
+    margin: 0;
+  }
+  label {
+    display: initial;
+    position: absolute;
+    right: 40px;
+  }
+  .item {
+    margin: 0 0 20px 0;
+    width: 100%;
+    font-weight: 300;
+    color: white;
+  }
+  #menu-hamburguesa:checked ~ .menu {
+    display: initial;
+  }
+  iframe {
+    width: 380px;
+    height: 270px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
