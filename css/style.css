@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #112c2c;
+  background-color: #103535;
 }
 body footer {
   display: flex;
@@ -34,10 +34,6 @@ body footer .div01 {
   padding: 7px;
   background-color: black;
   border-radius: 10px;
-}
-
-span {
-  font-weight: bold;
 }
 
 .Parrafos {
@@ -89,6 +85,15 @@ header nav ul li a {
   font-family: "Times New Roman", Times, serif;
 }
 
+.item-info:hover {
+  background-image: radial-gradient(circle, #154949, #1e2e2e);
+  border-radius: 5px;
+  transition: 1s;
+  color: #c41c46;
+  margin: 10px;
+  padding: 6px;
+}
+
 .menu {
   display: flex;
   justify-content: center;
@@ -122,6 +127,7 @@ footer div img {
   width: 4%;
 }
 
+/*Secciones del Index*/
 .section04 {
   display: flex;
   flex-wrap: wrap;
@@ -163,6 +169,22 @@ iframe {
   justify-content: center;
 }
 
+/*Secciones del Index*/
+/*Secciones de Razas*/
+/*Secciones de Razas*/
+/* Divs para todos los archivos html*/
+.Divs {
+  align-items: center;
+  margin: 20px 5px 20px 5px;
+  border-radius: 10px;
+  display: flex;
+  background-image: radial-gradient(circle at 50%, #1a5555, #000000);
+  top: -12px;
+  padding: 10px 0 10px 0px;
+  width: 1150px;
+}
+
+/* Divs para todos los archivos html*/
 #menu-hamburguesa {
   display: none;
   list-style-type: none;
@@ -200,6 +222,9 @@ label {
     left: 0;
     background-color: #0d1414;
     display: none;
+  }
+  .item-info {
+    color: white;
   }
   .menu {
     padding: 30px;

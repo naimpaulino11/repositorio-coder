@@ -20,6 +20,10 @@
         display:none;
         
      }
+     
+     .item-info{
+      color:white;
+     }
     
          .menu{
             padding:30px;
@@ -40,7 +44,8 @@
             
          }
          
-#menu-hamburguesa:checked ~ .menu{ display: initial;
+         #menu-hamburguesa:checked ~ .menu{
+            display: initial;
          }
 
          iframe{

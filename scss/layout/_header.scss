@@ -13,6 +13,7 @@ header{
     width: 100%;
     
     
+
    nav{ 
     list-style-type:none;
     
@@ -26,6 +27,7 @@ header{
                 text-decoration: none;
                 color: black;
                 font-family: 'Times New Roman', Times, serif
+                
             }
             
             
@@ -33,6 +35,19 @@ header{
     }
    }
 }
+
+.item-info:hover{
+    background-image: radial-gradient(circle, #154949, #1e2e2e);
+    border-radius: 5px;
+        transition: 1s;
+        color:#c41c46;
+        margin: 10px;
+        padding: 6px;
+        
+    
+}
+
+
 
 
 .menu{
