@@ -42,22 +42,69 @@
 /*Secciones del Index*/
 
 
- /*Secciones de Razas*/
-
-
-
- /*Secciones de Razas*/
 
 /* Divs para todos los archivos html*/
 .Divs{
     align-items: center;
-    margin: 20px 5px 20px 5px ;
+    margin: 20px 5px 20px 20px ;
     border-radius: 10px;
     display: flex;
+    flex-wrap: wrap;
     background-image: radial-gradient(circle at 50%, #1a5555, #000000);
     top:-12px;
     padding: 10px 0 10px 0px;
     width: 1150px;
     
 }
+
+  
 /* Divs para todos los archivos html*/
+
+/*Secciones para el archivo Alimentación*/
+
+.section05{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start; 
+    align-items: center;
+    text-align: center;
+    margin: 10px 0 10px;
+    
+}
+
+.section-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 10px 40px 35px  40px;
+    img{
+       border-radius: 10px;
+       width: 700px;
+       height: 400px;
+    }
+    
+    
+
+
+}
+
+.section06{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 40px 40px 40px;
+}
+
+/*Secciones para el archivo Alimentación*/
+
+
+/* Secciones para el archivo Sobre nosotros*/
+
+
+
+
+/* Secciones para el archivo Sobre nosotros*/
+

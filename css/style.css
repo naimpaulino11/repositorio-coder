@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   list-style-type: none;
 }
@@ -30,7 +31,7 @@ body footer .div01 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px;
+  margin: 15px 20px 5px 21px;
   padding: 7px;
   background-color: black;
   border-radius: 10px;
@@ -122,6 +123,8 @@ footer {
   border-top: 1px solid black;
   padding: 1px;
   margin: 0%;
+  position: relative;
+  top: 130px;
 }
 footer div img {
   width: 4%;
@@ -170,14 +173,13 @@ iframe {
 }
 
 /*Secciones del Index*/
-/*Secciones de Razas*/
-/*Secciones de Razas*/
 /* Divs para todos los archivos html*/
 .Divs {
   align-items: center;
-  margin: 20px 5px 20px 5px;
+  margin: 20px 5px 20px 20px;
   border-radius: 10px;
   display: flex;
+  flex-wrap: wrap;
   background-image: radial-gradient(circle at 50%, #1a5555, #000000);
   top: -12px;
   padding: 10px 0 10px 0px;
@@ -185,6 +187,41 @@ iframe {
 }
 
 /* Divs para todos los archivos html*/
+/*Secciones para el archivo Alimentación*/
+.section05 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0 10px;
+}
+
+.section-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 10px 40px 35px 40px;
+}
+.section-img img {
+  border-radius: 10px;
+  width: 700px;
+  height: 400px;
+}
+
+.section06 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 40px 40px 40px;
+}
+
+/*Secciones para el archivo Alimentación*/
+/* Secciones para el archivo Sobre nosotros*/
+/* Secciones para el archivo Sobre nosotros*/
 #menu-hamburguesa {
   display: none;
   list-style-type: none;
@@ -241,12 +278,28 @@ label {
     font-weight: 300;
     color: white;
   }
+  .section-img {
+    display: flex;
+    justify-content: center;
+  }
+  .section-img .img01 {
+    width: 350px;
+    height: 250px;
+  }
   #menu-hamburguesa:checked ~ .menu {
     display: initial;
   }
   iframe {
     width: 380px;
     height: 270px;
+  }
+  .item-info:hover {
+    background-image: radial-gradient(circle, #154949, #1e2e2e);
+    border-radius: 5px;
+    transition: 1s;
+    color: #c41c46;
+    margin: 10px;
+    padding: 6px;
   }
 }
 

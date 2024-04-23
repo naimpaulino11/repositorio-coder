@@ -43,7 +43,16 @@
             color: white;
             
          }
+         .section-img{
+            display: flex;
+            justify-content: center;
          
+                .img01{
+                  width: 350px;
+                  height: 250px;
+                }
+
+         }
          #menu-hamburguesa:checked ~ .menu{
             display: initial;
          }
@@ -53,7 +62,18 @@
 
             height: 270px;
          }
-        
+         
+      
+         .item-info:hover{
+            background-image: radial-gradient(circle, #154949, #1e2e2e);
+            border-radius: 5px;
+                transition: 1s;
+                color:#c41c46;
+                margin: 10px;
+                padding: 6px;
+                
+            
+        }
 
 }
 
