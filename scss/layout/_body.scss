@@ -4,24 +4,23 @@
 }
 
 body{
-        
         background-color: #103535;
 
 
  
-        footer{
-            div{
-                img{
+    footer{
+        div{  
+            display: flex;
+            justify-content: space-between;
+            img{
                     width: 6%;
                     margin: 5px;
                 }
             }
-            display: flex;
-            justify-content: space-between;
-
+            
     
 
-            .div01{
+             .div01{
                 margin: 7px;
                 padding: 2px;
                 display: flex;
